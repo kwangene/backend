@@ -4,10 +4,8 @@ with Spring DataJPA and mySQL.
 HTTP clients like POSTMANN sends CRUD operations like GET,POST,PUT and Delete to the Controller which layer depends on the Service layer
 that also depends on the Repository layer.The DAO layers interacts with the Database and sends back the response to the HTTP REST client.
 
-REST Client like POSTMANN <------GET  --->  Controller layer <-->Bussiness/Service Layer <--->DAO or Repository Layer <-->Database  
-                          <------POST--->
-                          <------PUT---->
-                          <------Delete->
+REST Client like POSTMANN <--GET,POST,PUT, Delete --> Controller layer <-->Bussiness/Service Layer <--->DAO or Repository Layer <-->Database  
+                         
                         
 
 
